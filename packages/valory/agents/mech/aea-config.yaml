@@ -48,7 +48,12 @@ skills:
 - valory/termination_abci:0.1.0:bafybeig4stz7s6phndruvrgqptbc62ue2filttj4wbnempkur5ybso5edu
 - valory/transaction_settlement_abci:0.1.0:bafybeicvfbyp4lfqcohmvw6ozlvsbp2eugl2wxqxsdpp36ro7bk3waxjky
 - valory/websocket_client:0.1.0:bafybeif7rrvsu6z4evqkhblxj3u6wwv2eqou576hgkyoehxuj7cntw7o2m
-customs: []
+customs:
+- jayshree/grid_pair_screener:0.1.0:bafybeif3bkm7rcjmejenounri46u5kroja2ljtnuotzjpopmriicx6j5oe
+- jisong/nft_appraisal_skill:0.1.0:bafybeic26hztvkfwm3tvix54xvublm2mnmxv54g6nrdk3m5ubkanuvipja
+- moserah/trump_news:0.1.0:bafybeigqtgaxjsfzjmxajlvfzrqakoscb5zeblmy4d2amwk4vlvhlt3t4a
+- uzo/grid_analyser:0.1.0:bafybeid3i4tinihwjzf4gct2jsez23j23kljhadfdzkk23xp2f6prt4sza
+- uzo/trump_news_agent:0.1.0:bafybeigdiiznrxsjvgz73vqmwaq2eggxzvlylav3n2vvxp7w5uegimxop4
 default_ledger: ethereum
 required_ledgers:
 - ethereum
@@ -85,6 +90,32 @@ dependencies:
     version: ==6.21.6
   open-aea-ledger-ethereum:
     version: ==1.63.0
+  requests:
+    version: ==2.31.0
+  openai:
+    version: ==1.68.2
+  dune-client:
+    version: ==1.7.9
+  pandas:
+    version: ==2.2.3
+  numpy:
+    version: ==1.26.4
+  langchain-openai:
+    version: ==0.3.16
+  ccxt:
+    version: ==4.4.77
+  matplotlib:
+    version: ==3.10.3
+  scikit-learn:
+    version: ==1.6.1
+  pydantic:
+    version: ==2.10.6
+  nltk:
+    version: ==3.9.1
+  newsapi-python:
+    version: ==0.2.7
+  python-dotenv:
+    version: ==0.21.1
 default_connection: null
 ---
 public_id: valory/websocket_client:0.1.0:bafybeiexove4oqyhoae5xmk2hilskthosov5imdp65olpgj3cfrepbouyy
